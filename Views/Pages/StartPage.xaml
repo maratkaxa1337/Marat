@@ -9,8 +9,8 @@
       Title="StartPage">
 
     <Grid Background="White">
-        <Button x:Name="buttonToApplicants" Content="Пертенденты" HorizontalAlignment="Left" Margin="220,120,0,0" VerticalAlignment="Top" Width="380" Height="70" Click="buttonToApplicants_Click" FontSize="14" Background="#FF7BA7F3" />
-        <Button x:Name="buttonToFrames" Content="Кадры" HorizontalAlignment="Left" Margin="220,195,0,0" VerticalAlignment="Top" Width="380" Height="70" FontSize="14" Background="#FF7BA7F3"/>
-        <Button x:Name="buttonToPosition" Content="Должности" HorizontalAlignment="Left" Margin="220,270,0,0" VerticalAlignment="Top" Width="380" Height="70" FontSize="14" Background="#FF7BA7F3"/>
+        <Button x:Name="buttonToApplicants" Content="Кандидаты" HorizontalAlignment="Left" Margin="220,120,0,0" VerticalAlignment="Top" Width="380" Height="70" Click="buttonToApplicants_Click" FontSize="14" Background="#FF7BA7F3" />
+        <Button x:Name="buttonToFrames" Content="Кадры" HorizontalAlignment="Left" Margin="220,195,0,0" VerticalAlignment="Top" Width="380" Height="70" FontSize="14" Background="#FF7BA7F3" Click="buttonToFrames_Click"/>
+        <Button x:Name="buttonToPosition" Content="Должности" HorizontalAlignment="Left" Margin="220,270,0,0" VerticalAlignment="Top" Width="380" Height="70" FontSize="14" Background="#FF7BA7F3" Click="buttonToPosition_Click"/>
     </Grid>
 </Page>

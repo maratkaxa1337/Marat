@@ -38,7 +38,7 @@
         </ComboBox>
         <TextBox x:Name="txtTotalSalary" HorizontalAlignment="Left" Height="23" Margin="235,330,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" FontSize="14"/>
         <ComboBox x:Name="comboBoxPosition" HorizontalAlignment="Left" Margin="235,365,0,0" VerticalAlignment="Top" Width="240"/>
-        <Button x:Name="buttonToView" Content="Посмотреть существующие" HorizontalAlignment="Left" Margin="520,352,0,0" VerticalAlignment="Top" Width="235" Height="35" Click="buttonToView_Click"/>
+        <Button x:Name="buttonToView" Content="Посмотреть кадры" HorizontalAlignment="Left" Margin="520,352,0,0" VerticalAlignment="Top" Width="235" Height="35" Click="buttonToView_Click"/>
         <Button x:Name="buttonBack" Content="Назад" HorizontalAlignment="Left" Margin="10,405,0,0" VerticalAlignment="Top" Width="235" Height="35" Click="buttonBack_Click"/>
         <Button x:Name="buttonAdd" Content="Добавить" HorizontalAlignment="Left" Margin="520,312,0,0" VerticalAlignment="Top" Width="235" Height="35" Click="buttonAdd_Click"/>
 

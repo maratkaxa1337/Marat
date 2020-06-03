@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Marat.Views.Pages.PositionPages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,6 +29,16 @@ namespace Marat.Views.Pages
         private void buttonToApplicants_Click(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new ApplicantsPage());
+        }
+
+        private void buttonToFrames_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new ApplicantsViewPage());
+        }
+
+        private void buttonToPosition_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new PositionPageView());
         }
     }
 }

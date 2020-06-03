@@ -1,8 +1,11 @@
 ﻿using Marat.Context;
 using Marat.Models;
+using Marat.Moderato;
 using Marat.Views.Pages.Applicants;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -90,5 +93,19 @@ namespace Marat.Views.Pages
         {
             viewApplicants.ItemsSource = XApp.db.Applicants.Where(date => date.EmlpoymentDate == searchEmploymentDate.SelectedDate).ToList();
         }
+
+        Export export = new Export();
+        private void buttonLoad_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                export.ExportToTxt(viewApplicants);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Ошибка!", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
     }
 }

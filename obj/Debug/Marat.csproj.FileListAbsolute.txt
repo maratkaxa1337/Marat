@@ -25,3 +25,7 @@ H:\Мои проекты\C# .NET Framework\Windows Presentation Foundation.NET F
 H:\Мои проекты\C# .NET Framework\Windows Presentation Foundation.NET Framework\Marat\obj\Debug\Marat.csproj.CopyComplete
 H:\Мои проекты\C# .NET Framework\Windows Presentation Foundation.NET Framework\Marat\obj\Debug\Marat.exe
 H:\Мои проекты\C# .NET Framework\Windows Presentation Foundation.NET Framework\Marat\obj\Debug\Marat.pdb
+H:\Мои проекты\C# .NET Framework\Windows Presentation Foundation.NET Framework\Marat\obj\Debug\Views\Pages\FramesPages\FramesPageView.g.cs
+H:\Мои проекты\C# .NET Framework\Windows Presentation Foundation.NET Framework\Marat\obj\Debug\Views\Pages\PositionPages\PositionPageView.g.cs
+H:\Мои проекты\C# .NET Framework\Windows Presentation Foundation.NET Framework\Marat\obj\Debug\Views\Pages\FramesPages\FramesPageView.baml
+H:\Мои проекты\C# .NET Framework\Windows Presentation Foundation.NET Framework\Marat\obj\Debug\Views\Pages\PositionPages\PositionPageView.baml
